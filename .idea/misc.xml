@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/dubbo_provider" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo_provider_59pm" />
+    <file type="web" url="file://$PROJECT_DIR$/sb_annotion_consumer4_510pm" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/son_springboot_solr/pom.xml" />
+        <option value="$PROJECT_DIR$/son_spring_solr/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_provider_510am/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_consumer_510am/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_annotion_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_annotion_provider_510pm/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_annotion_consumer4_510pm/pom.xml" />
+        <option value="$PROJECT_DIR$/sbdoubbo_privider_512zy/pom.xml" />
+        <option value="$PROJECT_DIR$/sbdbshiro_fivetable_512zy/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo_provider_59pm" />
+        <module name="sb_annotion_consumer4_510pm" />
+        <module name="sb_annotion_provider_510pm" />
+        <module name="sb_consumer" />
+        <module name="sb_consumer_510am" />
+        <module name="sb_dubboApi_510am" />
+        <module name="sb_provider_510am" />
+        <module name="sbdbshiro_fivetable_512zy" />
+        <module name="sbdoubbo_privider_512zy" />
+        <module name="son_spring_solr" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo_provider" target="1.7" />
+      <module name="sb_annotion_consumer3_510pm" target="1.8" />
+      <module name="sb_annotion_provider" target="1.8" />
+      <module name="son_springboot_solr" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sb_annotion_consumer3_510pm" options="-parameters" />
+      <module name="sb_annotion_consumer4_510pm" options="-parameters" />
+      <module name="sb_annotion_provider" options="-parameters" />
+      <module name="sb_annotion_provider_510pm" options="-parameters" />
+      <module name="sb_consumer" options="-parameters" />
+      <module name="sb_consumer_510am" options="-parameters" />
+      <module name="sb_provider_510am" options="-parameters" />
+      <module name="sbdbshiro_fivetable_512zy" options="-parameters" />
+      <module name="sbdoubbo_privider_512zy" options="-parameters" />
+      <module name="son_spring_solr" options="-parameters" />
+      <module name="son_springboot_solr" options="-parameters" />
+    </option>
+  </component>
+</project>

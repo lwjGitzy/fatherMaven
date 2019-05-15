@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jk.mapper.MainMapper" >
+  
+  
+
+
+   <!--<insert id="addProduct" parameterType="com.jk.service.model.Product">
+     insert into tb_item(title,sell_point,price,num)
+      values(#{product_title},#{product_sell_point},#{product_price},#{product_num})
+    
+   </insert>-->
+ 
+</mapper>

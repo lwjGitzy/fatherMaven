@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<!-- 这是jquery的核心包  -->
+<script type="text/javascript" src="../jquery.min.js"></script>
+<!-- 这是easyui的核心包  -->
+<script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+
+<script type="text/javascript" src="../easyui/locale/easyui-lang-zh_CN.js"></script>
+
+<!-- jqeuy默认的css样式 -->
+<link rel="stylesheet" type="text/css" href="../easyui/themes/default/easyui.css"/>
+
+<link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css"/>
+<body>
+
+
+<form id="serach_form" method="get" >
+
+    标题：<input type="easyui-textbox" id="name" name="name">
+    <input type="button" onclick="query()" value="提交">
+</form>
+<div class="easyui-datagrid" id="myTable"></div>
+
+</body>
+<script type="text/javascript" >
+    /*<![CDATA[*/
+    $(function () {
+
+        query();
+    })
+    function query(){
+        $("#myTable").datagrid({
+            url:'../solr/search',
+            fitColumns:true,
+            striped:true,
+            ctrlSelect:true,
+            pagination:true,
+            pageNumber:1,//页码数
+            pageSize:5,//行
+            pageList:[1,2,5,10],
+            method:"post",
+            queryParams:{
+                name:$("#name").val()
+
+            },
+            columns:[
+                [
+                    {field:'id',title:'编号',width:100},
+                    {field:'name',title:'类型',width:100}
+
+
+                ]
+            ]
+
+        })
+    }
+
+
+
+</script>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sb_annotion_consumer2_510pm/sb_annotion_consumer2_510pm.iml" filepath="$PROJECT_DIR$/sb_annotion_consumer2_510pm/sb_annotion_consumer2_510pm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb_annotion_consumer_510pm/sb_annotion_consumer_510pm.iml" filepath="$PROJECT_DIR$/sb_annotion_consumer_510pm/sb_annotion_consumer_510pm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb_consumer/sb_consumer.iml" filepath="$PROJECT_DIR$/sb_consumer/sb_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sbdoubbo_privider_512zy/sbdoubbo_privider_512zy.iml" filepath="$PROJECT_DIR$/sbdoubbo_privider_512zy/sbdoubbo_privider_512zy.iml" />
+    </modules>
+  </component>
+</project>
